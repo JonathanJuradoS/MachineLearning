@@ -1,0 +1,235 @@
+CustomerID;Age;Gender;Tenure;MonthlyCharges;ContractType;InternetService;TotalCharges;TechSupport;Churn
+1;40;Female;53;49.81;Two-Year;Fiber Optic;2639.93;Yes;No
+2;40;Female;19;36.18;One-Year;Fiber Optic;687.42;Yes;No
+3;39;Female;41;89.11;Two-Year;Fiber Optic;3653.51;Yes;No
+4;35;Male;98;49.59;Two-Year;Fiber Optic;4859.82;Yes;No
+5;59;Female;6;73.56;One-Year;DSL;441.36;No;Yes
+6;39;Male;47;79.36;One-Year;DSL;3729.92;Yes;No
+7;46;Male;25;35.98;Two-Year;DSL;899.5;Yes;No
+8;33;Female;18;98.99;One-Year;Fiber Optic;1781.82;Yes;No
+9;48;Male;7;82.53;Month-to-Month;None;577.71;No;Yes
+10;42;Male;62;97.66;Two-Year;Fiber Optic;6054.92;Yes;No
+11;53;Female;5;85.84;Month-to-Month;DSL;429.2;Yes;Yes
+12;32;Female;1;96.8;Month-to-Month;Fiber Optic;96.8;No;Yes
+13;25;Female;23;47.55;One-Year;Fiber Optic;1093.65;Yes;No
+14;52;Male;12;111.74;One-Year;Fiber Optic;1340.88;Yes;Yes
+15;41;Male;10;88.87;Month-to-Month;DSL;888.7;Yes;Yes
+16;48;Male;22;54.38;One-Year;DSL;1196.36;Yes;No
+17;38;Female;18;58.24;Two-Year;Fiber Optic;1048.32;Yes;No
+18;41;Female;41;75.64;Two-Year;Fiber Optic;3101.24;Yes;No
+19;48;Female;25;46.91;One-Year;Fiber Optic;1172.75;No;Yes
+20;53;Female;0;101.66;Month-to-Month;Fiber Optic;0;Yes;Yes
+21;55;Female;13;53.77;One-Year;Fiber Optic;699.01;Yes;No
+22;38;Male;0;87.27;One-Year;None;0;No;Yes
+23;48;Female;2;59.21;Month-to-Month;Fiber Optic;118.42;Yes;Yes
+24;54;Female;49;32.8;One-Year;DSL;1607.2;Yes;No
+25;50;Male;17;109.13;One-Year;Fiber Optic;1855.21;Yes;Yes
+26;45;Female;9;51.91;Two-Year;Fiber Optic;467.19;Yes;Yes
+27;47;Female;22;97.34;Two-Year;Fiber Optic;2141.48;Yes;No
+28;56;Female;14;100.54;Month-to-Month;DSL;1407.56;Yes;Yes
+29;66;Female;0;86.14;Two-Year;Fiber Optic;0;Yes;Yes
+30;39;Male;12;33.5;One-Year;Fiber Optic;402;Yes;No
+31;45;Female;6;105.34;Month-to-Month;Fiber Optic;632.04;Yes;Yes
+32;39;Female;46;85.76;Month-to-Month;Fiber Optic;3944.96;Yes;Yes
+33;49;Female;43;82.82;One-Year;None;3561.26;No;Yes
+34;47;Male;9;50.6;Month-to-Month;DSL;455.4;Yes;Yes
+35;47;Female;16;60.77;Two-Year;Fiber Optic;972.32;Yes;No
+36;52;Male;15;77.49;Two-Year;DSL;1162.35;Yes;No
+37;31;Male;35;119.61;Month-to-Month;None;4186.35;No;Yes
+38;47;Male;7;88.46;Two-Year;DSL;619.22;Yes;Yes
+39;63;Female;16;90.98;Two-Year;DSL;1455.68;Yes;No
+40;51;Female;2;45.06;Month-to-Month;DSL;90.12;Yes;Yes
+41;49;Female;42;44.06;One-Year;DSL;1850.52;Yes;No
+42;36;Male;0;90.1;Month-to-Month;None;0;No;Yes
+43;53;Female;66;100.12;Two-Year;Fiber Optic;6607.92;No;Yes
+44;51;Female;2;116.48;Month-to-Month;Fiber Optic;232.96;Yes;Yes
+45;49;Male;31;66.17;One-Year;Fiber Optic;2051.27;Yes;No
+46;49;Female;57;54.93;One-Year;Fiber Optic;3131.01;Yes;No
+47;47;Male;17;32.86;One-Year;Fiber Optic;558.62;Yes;No
+48;46;Male;9;109.46;One-Year;DSL;985.14;Yes;Yes
+49;33;Female;13;49.01;One-Year;Fiber Optic;637.13;Yes;No
+50;48;Female;17;107.67;Month-to-Month;Fiber Optic;1830.39;Yes;Yes
+51;31;Female;35;55.79;One-Year;Fiber Optic;1952.65;Yes;No
+52;35;Male;28;102.24;One-Year;DSL;2862.72;Yes;Yes
+53;56;Female;11;71.85;Month-to-Month;Fiber Optic;790.35;No;Yes
+54;54;Female;37;106.26;One-Year;DSL;3931.62;No;Yes
+55;51;Female;44;35.62;Two-Year;Fiber Optic;1567.28;Yes;No
+56;40;Male;23;50.64;Two-Year;None;1164.72;No;Yes
+57;37;Female;32;45.07;Two-Year;Fiber Optic;1442.24;Yes;No
+58;47;Male;63;98.34;Two-Year;DSL;6195.42;No;Yes
+59;38;Male;26;50.93;One-Year;DSL;1324.18;Yes;No
+60;53;Male;35;41.67;One-Year;DSL;1458.45;Yes;No
+61;32;Female;21;48.95;Month-to-Month;DSL;1027.95;Yes;Yes
+62;49;Female;13;43.94;Two-Year;DSL;571.22;Yes;No
+63;55;Female;1;80.71;One-Year;DSL;80.71;Yes;Yes
+64;29;Female;8;102.34;Two-Year;DSL;818.72;Yes;Yes
+65;37;Female;59;75.5;Two-Year;Fiber Optic;4454.5;Yes;No
+66;52;Male;62;86.16;One-Year;None;5341.92;No;Yes
+67;35;Female;14;54.63;One-Year;DSL;764.82;Yes;No
+68;12;Female;1;37.4;Two-Year;DSL;37.4;No;Yes
+69;42;Male;31;57.58;One-Year;Fiber Optic;1784.98;Yes;No
+70;49;Male;47;78.42;One-Year;DSL;3685.74;Yes;No
+71;51;Female;18;74.05;Month-to-Month;None;1332.9;No;Yes
+72;32;Female;20;74.33;One-Year;Fiber Optic;1486.6;Yes;No
+73;47;Female;17;66.61;One-Year;Fiber Optic;1132.37;Yes;No
+74;38;Male;19;59.54;Two-Year;DSL;1131.26;Yes;No
+75;53;Male;16;81.1;One-Year;DSL;1297.6;Yes;No
+76;51;Female;29;88.03;One-Year;Fiber Optic;2552.87;Yes;No
+77;44;Male;19;42.71;Month-to-Month;DSL;811.49;Yes;Yes
+78;57;Male;27;46.67;Two-Year;DSL;1260.09;Yes;No
+79;42;Female;14;46.46;Two-Year;Fiber Optic;650.44;Yes;No
+80;41;Male;27;101.8;Month-to-Month;DSL;2748.6;Yes;Yes
+81;34;Male;31;90.55;Two-Year;DSL;2807.05;Yes;No
+82;32;Male;44;49.85;One-Year;None;2193.4;No;Yes
+83;52;Female;48;108.67;One-Year;None;5216.16;No;Yes
+84;54;Female;20;97.52;Month-to-Month;None;1950.4;No;Yes
+85;39;Male;21;73.75;Two-Year;DSL;1548.75;Yes;No
+86;47;Female;60;56.23;One-Year;DSL;3373.8;Yes;No
+87;39;Female;24;48.68;Two-Year;DSL;1168.32;Yes;No
+88;30;Female;30;72.13;Two-Year;Fiber Optic;2163.9;Yes;No
+89;43;Female;12;119.96;Month-to-Month;Fiber Optic;1439.52;No;Yes
+90;50;Female;34;60.64;Two-Year;Fiber Optic;2061.76;Yes;No
+91;51;Female;12;75.89;One-Year;DSL;910.68;Yes;No
+92;40;Female;42;75.11;One-Year;DSL;3154.62;Yes;No
+93;49;Female;21;44.46;Two-Year;None;933.66;No;Yes
+94;59;Male;26;32.25;One-Year;DSL;838.5;Yes;No
+95;53;Female;24;95.21;One-Year;Fiber Optic;2285.04;Yes;No
+96;23;Male;2;102.13;One-Year;None;204.26;No;Yes
+97;39;Female;14;65.29;One-Year;DSL;914.06;Yes;No
+98;46;Female;36;41.29;Month-to-Month;Fiber Optic;1486.44;Yes;Yes
+99;49;Female;10;64.86;Month-to-Month;None;648.6;No;Yes
+100;31;Female;13;35.95;One-Year;DSL;467.35;Yes;No
+101;56;Male;15;104.42;Month-to-Month;DSL;1566.3;No;Yes
+102;40;Female;18;77.23;Month-to-Month;DSL;1390.14;Yes;Yes
+103;29;Male;22;116.53;One-Year;Fiber Optic;2563.66;Yes;Yes
+104;45;Female;29;53.89;Two-Year;DSL;1562.81;Yes;No
+105;43;Female;0;106.33;One-Year;DSL;0;Yes;Yes
+106;52;Female;2;96.52;One-Year;None;193.04;No;Yes
+107;37;Male;14;94.44;Month-to-Month;None;1322.16;No;Yes
+108;65;Male;20;60.6;One-Year;DSL;1212;Yes;No
+109;62;Female;73;37.1;Two-Year;Fiber Optic;2708.3;Yes;No
+110;52;Female;13;83.57;Month-to-Month;None;1086.41;No;Yes
+111;31;Male;63;75.14;Two-Year;Fiber Optic;4733.82;Yes;No
+112;27;Male;57;52.2;Month-to-Month;Fiber Optic;2975.4;Yes;Yes
+113;35;Male;3;35;Two-Year;None;105;No;Yes
+114;34;Female;30;49.12;Month-to-Month;Fiber Optic;1473.6;No;Yes
+115;39;Female;9;110.6;Month-to-Month;DSL;995.4;Yes;Yes
+116;34;Male;8;92.2;One-Year;None;737.6;No;Yes
+117;45;Female;44;60.79;One-Year;Fiber Optic;2674.76;Yes;No
+118;35;Male;3;80.99;Month-to-Month;DSL;242.97;Yes;Yes
+119;47;Female;4;110.85;Month-to-Month;DSL;443.4;Yes;Yes
+120;30;Female;37;59.41;Month-to-Month;Fiber Optic;2198.17;Yes;Yes
+121;38;Male;79;30.97;One-Year;Fiber Optic;2446.63;Yes;No
+122;34;Female;31;104.39;Month-to-Month;DSL;3236.09;Yes;Yes
+123;61;Female;38;102.09;Month-to-Month;DSL;3879.42;No;Yes
+124;50;Female;79;36.05;Two-Year;Fiber Optic;2847.95;Yes;No
+125;45;Male;14;53.37;Two-Year;Fiber Optic;747.18;Yes;No
+126;47;Female;28;68.81;Month-to-Month;Fiber Optic;1926.68;No;Yes
+127;35;Male;25;34.75;Two-Year;Fiber Optic;868.75;Yes;No
+128;45;Male;16;52.76;One-Year;DSL;844.16;Yes;No
+129;52;Female;29;81.99;Two-Year;DSL;2377.71;Yes;No
+130;28;Male;13;62.33;Two-Year;DSL;810.29;Yes;No
+131;26;Male;5;62.63;Month-to-Month;Fiber Optic;313.15;Yes;Yes
+132;51;Male;26;72;One-Year;Fiber Optic;1872;Yes;No
+133;45;Female;21;102.76;One-Year;Fiber Optic;2157.96;Yes;Yes
+134;37;Male;28;32.94;Two-Year;DSL;922.32;Yes;No
+135;48;Female;17;44.51;Month-to-Month;None;756.67;No;Yes
+136;43;Male;5;80.6;Month-to-Month;None;403;No;Yes
+137;56;Female;16;94.33;One-Year;Fiber Optic;1509.28;Yes;No
+138;48;Male;21;67.59;Two-Year;DSL;1419.39;Yes;No
+139;48;Female;2;89.56;One-Year;Fiber Optic;179.12;Yes;Yes
+140;24;Male;60;63.61;Month-to-Month;DSL;3816.6;No;Yes
+141;41;Female;17;61.94;One-Year;Fiber Optic;1052.98;Yes;No
+142;61;Male;28;90.82;Month-to-Month;DSL;2542.96;Yes;Yes
+143;48;Male;6;89.23;One-Year;None;535.38;No;Yes
+144;56;Female;12;67.73;One-Year;DSL;812.76;Yes;No
+145;40;Female;4;109.14;One-Year;Fiber Optic;436.56;Yes;Yes
+146;67;Female;4;50.82;Two-Year;Fiber Optic;203.28;Yes;Yes
+147;46;Female;8;75.22;Month-to-Month;DSL;601.76;No;Yes
+148;40;Female;4;116.23;Two-Year;Fiber Optic;464.92;Yes;Yes
+149;48;Female;36;66.29;One-Year;Fiber Optic;2386.44;Yes;No
+150;58;Female;0;106.02;Two-Year;Fiber Optic;0;Yes;Yes
+151;51;Female;72;76.27;Two-Year;Fiber Optic;5491.44;Yes;No
+152;47;Female;21;65.56;Two-Year;DSL;1376.76;Yes;No
+153;37;Female;27;95.55;Month-to-Month;None;2579.85;No;Yes
+154;49;Female;37;61.12;Month-to-Month;Fiber Optic;2261.44;No;Yes
+155;60;Female;7;115.21;Two-Year;DSL;806.47;No;Yes
+156;39;Male;24;66.02;One-Year;None;1584.48;No;Yes
+157;43;Female;28;91.92;One-Year;Fiber Optic;2573.76;Yes;No
+158;34;Female;17;114.47;Month-to-Month;DSL;1945.99;Yes;Yes
+159;32;Female;24;57.65;Month-to-Month;Fiber Optic;1383.6;No;Yes
+160;41;Male;30;67.55;Two-Year;Fiber Optic;2026.5;Yes;No
+161;42;Female;60;45.38;One-Year;DSL;2722.8;Yes;No
+162;42;Male;18;110.82;Month-to-Month;DSL;1994.76;No;Yes
+163;51;Female;2;31.49;Two-Year;Fiber Optic;62.98;No;Yes
+164;63;Male;14;89.55;One-Year;Fiber Optic;1253.7;Yes;No
+165;56;Male;14;84.22;One-Year;DSL;1179.08;Yes;No
+166;44;Female;12;42.19;One-Year;Fiber Optic;506.28;Yes;No
+167;43;Female;23;108.16;One-Year;Fiber Optic;2487.68;Yes;Yes
+168;39;Male;39;67.77;One-Year;Fiber Optic;2643.03;Yes;No
+169;37;Male;4;81.66;One-Year;Fiber Optic;326.64;Yes;Yes
+170;42;Female;8;32.58;Month-to-Month;Fiber Optic;260.64;No;Yes
+171;24;Male;16;33.62;One-Year;DSL;537.92;Yes;No
+172;30;Male;9;117.64;Month-to-Month;None;1058.76;No;Yes
+173;54;Male;9;54.43;Month-to-Month;DSL;489.87;Yes;Yes
+174;34;Male;25;60.37;One-Year;Fiber Optic;1509.25;Yes;No
+175;41;Male;32;49;One-Year;Fiber Optic;1568;Yes;No
+176;43;Female;40;69.79;Two-Year;Fiber Optic;2791.6;Yes;No
+177;30;Male;41;44.52;One-Year;DSL;1825.32;Yes;No
+178;24;Male;16;43.43;Two-Year;DSL;694.88;Yes;No
+179;47;Male;47;62.5;One-Year;Fiber Optic;2937.5;Yes;No
+180;44;Female;0;66.76;Two-Year;DSL;0;Yes;Yes
+181;56;Male;6;65.27;One-Year;None;391.62;No;Yes
+182;35;Female;20;44.07;Month-to-Month;DSL;881.4;No;Yes
+183;27;Female;20;62.44;Month-to-Month;DSL;1248.8;Yes;Yes
+184;55;Male;4;90.41;Month-to-Month;Fiber Optic;361.64;Yes;Yes
+185;37;Female;70;56.05;One-Year;DSL;3923.5;Yes;No
+186;46;Female;2;72.09;Month-to-Month;Fiber Optic;144.18;Yes;Yes
+187;52;Female;69;31.46;One-Year;Fiber Optic;2170.74;Yes;No
+188;44;Female;18;98.88;One-Year;Fiber Optic;1779.84;Yes;No
+189;29;Female;18;90.88;One-Year;Fiber Optic;1635.84;Yes;No
+190;44;Female;18;91.43;Two-Year;Fiber Optic;1645.74;Yes;No
+191;51;Female;40;81.78;One-Year;DSL;3271.2;Yes;No
+192;46;Male;58;68.62;One-Year;Fiber Optic;3979.96;Yes;No
+193;55;Male;42;51;Month-to-Month;None;2142;No;Yes
+194;28;Female;22;35.39;One-Year;Fiber Optic;778.58;Yes;No
+195;47;Female;0;84.54;Month-to-Month;DSL;0;Yes;Yes
+196;44;Male;10;73.07;Two-Year;Fiber Optic;730.7;Yes;Yes
+197;40;Male;11;32.51;Month-to-Month;None;357.61;No;Yes
+198;43;Female;25;116.88;Month-to-Month;Fiber Optic;2922;Yes;Yes
+199;30;Male;5;75.03;Two-Year;Fiber Optic;375.15;No;Yes
+200;31;Female;22;91.17;One-Year;Fiber Optic;2005.74;Yes;No
+201;44;Male;32;54.48;One-Year;Fiber Optic;1743.36;Yes;No
+202;47;Male;34;49.61;One-Year;None;1686.74;No;Yes
+203;33;Male;14;89.86;One-Year;Fiber Optic;1258.04;Yes;No
+204;48;Female;1;80.09;Two-Year;None;80.09;No;Yes
+205;49;Female;50;42.11;Month-to-Month;Fiber Optic;2105.5;Yes;Yes
+206;39;Male;21;66.18;Two-Year;Fiber Optic;1389.78;Yes;No
+207;38;Female;30;95.6;One-Year;Fiber Optic;2868;Yes;No
+208;65;Female;13;64.99;Two-Year;Fiber Optic;844.87;Yes;No
+209;37;Male;10;38.7;One-Year;DSL;387;Yes;Yes
+210;39;Female;42;103.12;Month-to-Month;DSL;4331.04;No;Yes
+211;40;Female;33;59.42;One-Year;DSL;1960.86;Yes;No
+212;55;Female;23;57.52;Two-Year;Fiber Optic;1322.96;Yes;No
+213;50;Female;14;41.99;One-Year;DSL;587.86;Yes;No
+214;50;Female;8;82.06;Month-to-Month;DSL;656.48;Yes;Yes
+215;55;Female;35;92.41;Two-Year;DSL;3234.35;Yes;No
+216;36;Male;14;46.8;One-Year;DSL;655.2;Yes;No
+217;48;Male;56;32.31;One-Year;DSL;1809.36;Yes;No
+218;45;Male;13;47.66;Two-Year;Fiber Optic;619.58;Yes;No
+219;41;Male;39;82.7;Two-Year;DSL;3225.3;Yes;No
+220;46;Female;23;51.04;One-Year;Fiber Optic;1173.92;Yes;No
+221;40;Female;5;87.4;Month-to-Month;None;437;No;Yes
+222;49;Female;14;93.16;One-Year;Fiber Optic;1304.24;Yes;No
+223;34;Male;11;65.63;Month-to-Month;DSL;721.93;No;Yes
+224;29;Female;15;98.06;One-Year;Fiber Optic;1470.9;Yes;No
+225;42;Male;13;52.58;One-Year;DSL;683.54;Yes;No
+226;48;Female;18;60.54;One-Year;Fiber Optic;1089.72;Yes;No
+227;50;Female;8;44.57;Two-Year;Fiber Optic;356.56;Yes;Yes
+228;49;Female;3;89.23;Month-to-Month;Fiber Optic;267.69;Yes;Yes
+229;52;Male;45;66.06;Two-Year;DSL;2972.7;Yes;No
+230;38;Female;10;67.33;One-Year;DSL;673.3;Yes;Yes
+231;26;Male;0;115.91;Month-to-Month;None;0;No;Yes
+232;20;Female;15;72.97;One-Year;Fiber Optic;1094.55;Yes;No
+233;49;Female;13;60.43;Month-to-Month;Fiber Optic;785.59;Yes;Yes
+234;42;Male;41;37.14;Month-to-Month;Fiber Optic;1522.74;Yes;Yes
